@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo múltiples for</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+			var mensaje1 = "Esta es la vuelta número ";
+			var mensaje2 = " de nuestro bucle"; //Se crean dos mensajes almacenados en su respectiva variable.
+			var i;
+
+			for( i = 1; i <=5; i++) { //Se inicializa la variable “i” a partir de 1 y tendrá que debe ser menor o igual a 5 y se obtendrá un incremento en 1.
+
+				alert(mensaje1 + i + mensaje2); //Se crea una alerta sonde se agregará el número de iteraciones que se han realizado en el ciclo.
+
+			if (i == 3){ //Se hace la comparación de si “i” es igual a 3, en caso de que sea se realiza lo siguiente.
+
+				for(var v = 1;v <=3; v++) { //Se crea la inicia “v” donde tiene un valor inicial de 1 y será menor o igual a 3.
+
+					alert("Esta es la vuelta número tres y voy a decir esto tres veces más"); //Se agrega la alerta casa que pase por el número 3 la variable “i” y la variable “v”.
+				}
+			}
+		}
+
+
+	</script>
+</body>
+</html>
